@@ -27,30 +27,30 @@ A simple demo project showcasing how to integrate the [Neon Tech Database](https
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/neon-database-demo.git
    cd neon-database-demo
-   \`\`\`
+   ```
 
 2. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Create a \`.env.local\` file in the root directory and add your Neon database connection string:
 
-   \`\`\`bash
+   ```bash
    DATABASE_URL=your-neon-database-connection-string
-   \`\`\`
+   ```
 
 ### Running the Project
 
 To start the development server, run:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The project should now be running on \`http://localhost:3000\`.
 
@@ -60,12 +60,12 @@ The project should now be running on \`http://localhost:3000\`.
 
 ### Example Request
 
-\`\`\`json
+```json
 POST /api/courses
 {
   "title": "Introduction to Algorithms"
 }
-\`\`\`
+```
 
 ### Zod Validation
 
